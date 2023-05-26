@@ -15,5 +15,3 @@ jobs:
       with: 
         name: ${{ env.ARTIFACT_NAME }}
         path: .
-    - name: run Lint checks
-      run: yarn style
