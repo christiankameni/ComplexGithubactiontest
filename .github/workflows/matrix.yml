@@ -1,0 +1,20 @@
+name: Complex
+
+on: push
+
+jobs: 
+  exemple-matrix:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows, macos] 
+    runs-on: ${{ matrix.os }}
+  
+    steps:
+    - uses: actions/checkout@v3
+    - run: date
+ 
+ 
+ 
+ 
+    
+ 
