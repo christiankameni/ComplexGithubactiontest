@@ -3,7 +3,7 @@ on: [push, pull_request]
 env:
   ARTIFACT_NAME: myartifact
 jobs:
-  main: 
+  build: 
     runs-on: ubuntu-latest
     steps:
     - name: checkout the code
