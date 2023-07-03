@@ -8,7 +8,7 @@ jobs:
     steps:
     - name: checkout the code
       uses:  actions/checkout@v3
-    - name: upload the artifact
+    - name:  upload the artifact
       uses:  actions/upload-artifact@v2
       with: 
         name: ${{ env.ARTIFACT_NAME }}
